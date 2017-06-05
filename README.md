@@ -57,3 +57,5 @@ Instead of writing HTML, we're using Elm function calls. Lists in Elm use square
 Questions:
 - Why are we passing in a list?
 - What's the first argument in the `li` function call?
+
+The first argument in li is for any attributes we want to add to the HTML element, since we don't want to add any it is empty.
