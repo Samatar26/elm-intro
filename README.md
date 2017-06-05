@@ -33,3 +33,7 @@ pluralize singular plural quantity =
 
 In Elm, the arguments go to the left of the equal sign and when you define a function it's as simple as the name of the function and any arguments seperated by white space.
 In Elm, you don't need to put parentheses around your if statement and the double equal is equal to the triple equal in JavaScript. With Elm your if statement has to have a following else statement, _**it's required**_. This is because the if else statement is an expression. The if/else statement is more equal to the ternary operation in JavaScript. Calling a function in Elm, is done by calling the function's name followed by white space and your arguments, _**no commas between your arguments**_. The parentheses are used to disambiguate between your function calls. In the example above, we're passing the result of pluralize into text.
+
+### Lesson 2 - Why Bother?
+In the JavaScript example above for the function pluralize, if we returned `singula` instead of `singular` our code would still reach the end user and is perfectly valid JS code and unless you invoke the function, there won't be any runtime error.
+Whereas in Elm, the compiler gets run ahead of time, before the code's executed, before it reaches your _**your end user**__. Things therefore tend not to crash, you tend not to get runtime exceptions.  You can't compare something of a different type to something else of a different type, e.g. a number and a string. You should therefore bother with Elm because of reliability.
